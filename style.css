@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
+
+:root {
+  --primary: #e60160;
+}
+
+body {
+  margin: 0;
+  font-family: "Train One", serif;
+}
+
+header {
+  margin: 0;
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+textarea {
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: large;
+}
+
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: large;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  margin: 1rem 1rem;
+  padding: 1rem 2rem;
+  font-family: "Domine", serif;
+  font-size: large;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--primary);
+  text-align: center;
+  margin: auto;
+}
+
+p {
+  display: block;
+  margin: 1rem;
+  font-size: medium;
+}
